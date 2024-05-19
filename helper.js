@@ -1,7 +1,10 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
 import { htmlElements } from './elements.js';
 
-
+/**
+ * A custom HTML element that represents a book preview.
+ * @extends HTMLElement
+ *
 class BookPreview extends HTMLElement {
     constructor() {
         super();
